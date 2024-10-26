@@ -1,8 +1,5 @@
 /** @format */
 
-// Online Javascript Editor for free
-// Write, Edit and Run your Javascript code using JS Online Compiler
-
 class Shape {
   constructor(color) {
     this.color = color;
