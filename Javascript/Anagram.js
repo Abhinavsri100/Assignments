@@ -7,7 +7,7 @@
  */
 function isAnagram(s1, s2) {
   if (s1.length() != s2.length()) return false;
-  const a = s1.toLowerCase().split("").sort().join("");
+  const a = s1.toLowerCase().split("").sort().join(""); //split coverts string to array of character then sort sort it lexicographically then join again makes it string
   const b = s2.toLowerCase().split("").sort().join("");
   if (a == b) return true;
   return false;
